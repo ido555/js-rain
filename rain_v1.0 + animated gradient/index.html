@@ -1,0 +1,31 @@
+<!--TODO:
+make sidenav start open
+make sidenav button flash for 5 seconds onload
+make sidenav transform between menu burger and an X
+add a disappearing arrow suggesting to scroll down
+replace https://via.placeholder.com/500?text=Made%20with%20Hamsters
+replace the blue gutters with some kind of texture / visual script
+make slide text not disappear on smaller devices
+make footer text responsive
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+<body>
+
+<canvas style="z-index: 1; position: absolute" id="bouncyGradient" class="h-100 w-100"></canvas>
+<canvas style="z-index: 2; position: absolute" id="rain" class="h-100 w-100"></canvas>
+
+<script async src="./index.js"></script>
+</body>
+
+</html>
